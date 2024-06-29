@@ -1,49 +1,74 @@
 {
   "projects": [
     {
-      "id": "project1",
-      "project_name": "a name",
-      "description": "a short description of the project goes here.",
-      "technologies": ["HTML", "CSS", "Javascript", "NodeJS", "ExpressJS"],
-      "live_link": "www.google.ca",
-      "github_link": "github.com/me",
-      "image_urls": ["../images/image.jpg", "../images/image.jpg", "../images/image.jpg", "../images/image.jpg", "../images/image.jpg", "../images/image.jpg", "../images/image.jpg"]
+      "id": "FSTD-Project-1",
+      "project_name": "Random Quote Generator",
+      "description": "A random quote generator.",
+      "technologies": ["HTML", "CSS", "Javascript"],
+      "live_link": "https://robertmullin.github.io/FSTD-Project-1/",
+      "github_link": "https://github.com/robertmullin/FSTD-Project-1",
+      "image_urls": [
+        "/images/FSTD-Project-1-Image-1.png", 
+        "/images/FSTD-Project-1-Image-2.png", 
+        "/images/FSTD-Project-1-Image-3.png", 
+        "/images/FSTD-Project-1-Image-4.png"
+      ]
     },
     {
-      "id": "project1",
-      "project_name": "a name",
-      "description": "a short description of the project goes here.",
-      "technologies": ["HTML", "CSS", "Javascript", "NodeJS", "ExpressJS"],
-      "live_link": "www.google.ca",
-      "github_link": "github.com/me",
-      "image_urls": ["../images/image.jpg", "../images/image.jpg", "../images/image.jpg", "../images/image.jpg", "../images/image.jpg", "../images/image.jpg", "../images/image.jpg"]
+      "id": "FSTD-Project-2",
+      "project_name": "Data Pagination and Filtering",
+      "description": "Employee information that is search friendly and uses pagination and filtering.",
+      "technologies": ["HTML", "CSS", "Javascript"],
+      "live_link": "https://robertmullin.github.io/FSTD-Project-2/",
+      "github_link": "https://github.com/robertmullin/FSTD-Project-2",
+     "image_urls": [
+        "/images/FSTD-Project-2-Image-1.png", 
+        "/images/FSTD-Project-2-Image-2.png", 
+        "/images/FSTD-Project-2-Image-3.png", 
+        "/images/FSTD-Project-2-Image-4.png"
+      ]
     },
     {
-      "id": "project1",
-      "project_name": "a name",
-      "description": "a short description of the project goes here.",
-      "technologies": ["HTML", "CSS", "Javascript", "NodeJS", "ExpressJS"],
-      "live_link": "www.google.ca",
-      "github_link": "github.com/me",
-      "image_urls": ["../images/image.jpg", "../images/image.jpg", "../images/image.jpg", "../images/image.jpg", "../images/image.jpg", "../images/image.jpg", "../images/image.jpg"]
+      "id": "FSTD-Project-3",
+      "project_name": "Interactive Form",
+      "description": "JavaScript enhanced interactive registration form for a Full Stack conference.",
+      "technologies": ["HTML", "CSS", "Javascript"],
+      "live_link": "https://robertmullin.github.io/FSTD-Project-3/",
+      "github_link": "https://github.com/robertmullin/FSTD-Project-3",
+      "image_urls": [
+        "/images/FSTD-Project-3-Image-1.png", 
+        "/images/FSTD-Project-3-Image-2.png", 
+        "/images/FSTD-Project-3-Image-3.png", 
+        "/images/FSTD-Project-3-Image-4.png"
+      ]
     },
     {
-      "id": "project1",
-      "project_name": "a name",
+      "id": "FSTD-Project-4",
+      "project_name": "Phrase Hunter Game",
       "description": "a short description of the project goes here.",
-      "technologies": ["HTML", "CSS", "Javascript", "NodeJS", "ExpressJS"],
-      "live_link": "www.google.ca",
-      "github_link": "github.com/me",
-      "image_urls": ["../images/image.jpg", "../images/image.jpg", "../images/image.jpg", "../images/image.jpg", "../images/image.jpg", "../images/image.jpg", "../images/image.jpg"]
+      "technologies": ["HTML", "CSS", "Javascript", "OOP"],
+      "live_link": "https://robertmullin.github.io/FSTD-Project-4/",
+      "github_link": "https://github.com/robertmullin/FSTD-Project-4",
+      "image_urls": [
+        "/images/FSTD-Project-4-Image-1.png", 
+        "/images/FSTD-Project-4-Image-2.png", 
+        "/images/FSTD-Project-4-Image-3.png", 
+        "/images/FSTD-Project-4-Image-4.png"
+      ]
     },
     {
-      "id": "project1",
-      "project_name": "a name",
-      "description": "a short description of the project goes here.",
-      "technologies": ["HTML", "CSS", "Javascript", "NodeJS", "ExpressJS"],
+      "id": "FSTD-Project-5",
+      "project_name": "Public API Requests",
+      "description": "An app for a fictional company called Awesome Startup, a distributed company with remote employees working all over the world. They need a smart way for employees to share contact information with each other.",
+      "technologies": ["HTML", "CSS", "Javascript", "API"],
       "live_link": "www.google.ca",
       "github_link": "github.com/me",
-      "image_urls": ["../images/image.jpg", "../images/image.jpg", "../images/image.jpg", "../images/image.jpg", "../images/image.jpg", "../images/image.jpg", "../images/image.jpg"]
+      "image_urls": [
+        "/images/FSTD-Project-5-Image-1.png", 
+        "/images/FSTD-Project-5-Image-2.png", 
+        "/images/FSTD-Project-5-Image-3.png", 
+        "/images/FSTD-Project-5-Image-4.png"
+      ]
     }
   ]
 }
