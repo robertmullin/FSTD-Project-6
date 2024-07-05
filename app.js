@@ -22,12 +22,17 @@ app.get("/about", (req, res) => {
   res.render("about"); // Renders views/about.pug
 });
 
+app.get("/projects", (req, res) => {
+  res.render("projects"); // Renders views/projects.pug
+});
+
 // Require json data
 const projectData = require('./data.json'); 
 
 // Route to render the pug template with project data
 app.get("/", (req, res) => {
   res.render('index', { projects: projectData.projects }); // Renders views/index.pug with project data
+  res.render('index', { projects: projectData.projects });
 });
 
 // Start server on specified port
