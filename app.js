@@ -17,22 +17,33 @@ app.use(express.static(publicPath));
 // Specify the views directory
 app.set("views", path.join(__dirname, 'views'));
 
+// Require json data
+const projectData = require('./data.json'); 
+
 // Set routes
 app.get("/about", (req, res) => {
   res.render("about"); // Renders views/about.pug
 });
 
 app.get("/projects", (req, res) => {
-  res.render("projects"); // Renders views/projects.pug
+  res.render("projects", { projects: projectData.projects }); 
 });
 
-// Require json data
-const projectData = require('./data.json'); 
+// Dynamic route to handle individual project pages
+app.get("/projects/:id", (req, res) => {
+  const projectId = req.params.id;
+  const project = projectData.projects.find(p => p.id === projectId);
+
+  if (project) {
+    res.render("project", { project }); 
+  } else {
+    res.status(404).send('Project not found');
+  }
+});
 
 // Route to render the pug template with project data
 app.get("/", (req, res) => {
-  res.render('index', { projects: projectData.projects }); // Renders views/index.pug with project data
-  res.render('index', { projects: projectData.projects });
+  res.render('index', { projects: projectData.projects }); 
 });
 
 // Start server on specified port
