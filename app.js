@@ -46,16 +46,15 @@ app.get("/", (req, res) => {
   res.render('index', { projects: projectData.projects }); 
 });
 
-// Example route that throws an error
+/* Example route that throws an error
 app.get('/error', (req, res, next) => {
-  // Simulate an error (e.g., accessing an undefined variable)
   try {
     throw new Error('Simulated 500 error');
   } catch (err) {
     next(err); // Pass the error to Express error handling middleware
   }
 });
-
+*/
 // Route for errors
 app.use((req, res, next) => {
   res.status(404).render('404', { title: 'Page Not Found' });
