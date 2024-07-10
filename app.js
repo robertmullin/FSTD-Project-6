@@ -58,12 +58,14 @@ app.get('/error', (req, res, next) => {
 // Route for errors
 app.use((req, res, next) => {
   res.status(404).render('404', { title: 'Page Not Found' });
+  console.log('404 Page Not Found');
 });
 
 // Error handling middleware for other errors
 app.use((err, req, res, next) => {
   console.error(err.stack);
   res.status(500).render('500', { title: 'Internal Server Error' });
+  console.log('500 Internal Server Error');
 });
 
 // Start server on specified port
