@@ -61,8 +61,8 @@
       "project_name": "Public API Requests",
       "description": "An app for a fictional company called Awesome Startup, a distributed company with remote employees working all over the world. They need a smart way for employees to share contact information with each other.",
       "technologies": ["HTML", "CSS", "Javascript", "API"],
-      "live_link": "www.google.ca",
-      "github_link": "github.com/me",
+      "live_link": "https://robertmullin.github.io/FSTD-Project-5/",
+      "github_link": "https://github.com/robertmullin/FSTD-Project-4",
       "image_urls": [
         "/images/FSTD-Project-5-Image-1.png", 
         "/images/FSTD-Project-5-Image-2.png", 
